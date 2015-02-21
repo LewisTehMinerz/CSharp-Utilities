@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Voids are defined by the IServer class.
+
 namespace MyNamespace
 {
     class Server : IServer
