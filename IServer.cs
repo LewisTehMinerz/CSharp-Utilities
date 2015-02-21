@@ -10,12 +10,13 @@ namespace MyNamespace
 {
     interface IServer
     {
-        public abstract void SetMOTD(String MOTD);
-        public abstract void SetMaxPlayers(int MaxPlayers);
-        public abstract void SetOP(String player);
-        public abstract void EnableWhitelist(Boolean whitelistEnabled);
-        public abstract void SetWhitelistedPlayers(String[] whitelist);
-        public abstract void StartServer();
-        public abstract void StopServer();
+        void SetMOTD(String MOTD);
+        void SetServerName(String serverName);
+        void SetMaxPlayers(int maxPlayers);
+        void SetOP(String player);
+        void EnableWhitelist(Boolean whitelistEnabled);
+        void SetWhitelistedPlayers(String[] whitelist);
+        void StartServer();
+        void StopServer();
     }
 }
