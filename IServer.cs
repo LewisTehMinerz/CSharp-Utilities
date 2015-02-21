@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// View Server.cs for example.
+
 namespace CSharpCraft
 {
     interface IServer
