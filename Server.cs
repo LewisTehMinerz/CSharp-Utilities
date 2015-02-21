@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// Voids are defined by the IServer class.
-
 namespace MyNamespace
 {
     class Server : IServer
@@ -15,7 +13,12 @@ namespace MyNamespace
             throw new NotImplementedException();
         }
 
-        public void SetMaxPlayers(int MaxPlayers)
+        public void SetServerName(string serverName)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SetMaxPlayers(int maxPlayers)
         {
             throw new NotImplementedException();
         }
