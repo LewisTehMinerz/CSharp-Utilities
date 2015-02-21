@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 // View Server.cs for example.
 
-namespace CSharpCraft
+namespace MyNamespace
 {
     interface IServer
     {
